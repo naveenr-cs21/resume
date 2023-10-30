@@ -1,0 +1,159 @@
+<html>
+<head>
+<div id="htmlContent">
+<title> MY RESUME </title>
+</head>
+<body>
+<style>
+table,th,td {
+border:2px solid black;
+border-collapse:collapse;
+}
+.bottomright {
+ position:absolute;
+ bottom:-1245px;
+ right:650px;
+ font-size:16px;
+}
+.topright {
+ position:absolute;
+ top:140px;
+ right:-00px;
+ font-size:15px;
+}
+a {
+ text-decoration:none;
+ color:black;
+}
+span {
+ color:blue;
+}
+.only-print{display:
+none!importent}@media print
+{
+.no-print,.no-print
+*{display:none!importent}.only-print{display:block!importent}
+footer{position:fixed;bottom:0}
+header{position:fixed:top:0
+}
+</style>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff"></div>
+  <br><br>
+<h1><center>RESUME</center></h1>
+<font size="5">NAVEEN R<br></font>
+<font size="2">D/o Rajendren V<br></font>
+<font size="2">3/297,Pillayappan Palayam,<br></font>
+<font size="2">Coimbatore.<br></font>
+<div class="topright corner"><a href="#">College Mail Id:<span>naveenr.cs21@kascsathy.ac.in</span></a><br><a href="https://github.com/naveenr-cs21/">GitHub Id:<span>naveenr-cs21</span></a><br>Contact Number:6369915525</div>
+<hr />
+<p><h3>OBJECTIVES</h3></p>
+<ul>
+ &nbsp;&nbsp;&nbsp;&nbsp;I want to use my knowledge and skills to gain practial exposure and understand the inner working of the company. I'd like to learn on the job and grow individually.
+</ul>
+<p><h3>EDUCATION</h3></p>
+        <table border="2" style="width:80%">
+  <tr>
+     <th>Course Name</th>
+     <th>Institution</th>
+     <th>University</th>
+     <th>Percentage</th>
+  </tr>
+  <tr>
+     <td>BSC Computer Science</td>
+     <td>Kaamadhenu Arts and Science College</td>
+     <td>Bharathiar University</td>
+     <td>76% Till 4th Sem</td>
+</tr>
+  <tr>
+     <td>HSC</td>
+     <td>E.A.B.Govn.Hr.Sec.School,Thenponmudi</td>
+     <td>State Board</td>
+     <td>59.40%</td>
+  </tr>
+  <tr>
+     <td>SSLC</td>
+     <td>Govn High School,kembanaickanpalayam</td>
+     <td>State Board</td>
+     <td>51.20%</td>
+  </tr>
+</table>
+<p><h3>PROGRAMMING SKILLS</h3></p>
+<ul>
+    <li>C</li>
+    <li>Java</li>
+    <li>Linux Shell Programming</li>
+    <li>Google Cloud Shell</li>
+    <li>Sql and Mysql</li>
+    <li>Github</li>
+</ul>
+<p><h3>SKILLS SUMMARY</h3></p>
+<ul>
+    <li>Learning <b>C</b> and <b>Java</b> by using looping concept and recursion.</li>
+    <li>Basic working in<b>Google Cloud Shell</b>.</li>
+    <li>Basic commands in working of Shelling Programming.</li>
+    <li>I know these <b>Linux Commands</b>,</li>
+      <ul>
+        <li>mkdir</li>
+        <li>ls</li>
+        <li>pwd</li>
+        <li>cd</li>
+        <li>cat</li>
+        <li>touch</li>
+        <li>cp</li>
+        <li>mv</li>
+        <li>rm</li>
+        <li>echo</li>
+        <li>wc</li>
+        <li>clear</li>
+       </ul>
+     <li>Learning in database by using <b>Sql</b> and <b>Mysql</b>.</li>
+     <li>I know to launch program in<b>Github</b>.</li>
+     <li>I know these <b>Github Commands</b>,</li>
+       <ul>
+         <li>git init</li>
+         <li>git add filename</li>
+         <li>git config user.email "Our Mail Id"</li>
+         <li>git config user.name "Our Github Id"</li>
+         <li>git commit -m "first commit"</li>
+         <li>git branch -M main</li>
+         <li>git remote add origin (repository url)</li>
+         <li>git push -u main</li>
+       </ul>
+     <li>I know these <b>mariadb commands</b></li>
+</ul>
+<p><h3>PERSONAL DETAILS</h3></p>
+<ul>
+     <li><b>NAME:</b>Naveen R</li>
+     <li><b>FATHER NAME:</b>Rajendren V</li>
+     <li><b>GENDER:</b>Male</li>
+     <li><b>DOB:</b>12.05.2003</li>
+</ul>
+<p><h3>DECLARATION</h3></p>
+<ul>
+ &nbsp;&nbsp;&nbsp;&nbsp; I heredy declaration that the information punished above is true to best of my Knowledge.
+</ul>
+<p><h3>PLACE:</h3></p>
+<p><h3>DATE:</h3></p>
+<h3><center>SIGNATURE</center></h3>
+</body>
+</div>
+<br>
+<center>
+<button onclick="printDiv('htmlContent')">Print / Save Pdf</button>
+</center>
+<script type="text/javascript">
+
+       function printDiv(div_id)
+        {
+           var divToPrint=document.getElementById(div_id);
+           var newWin=window.open('','Print-Window');
+           newWin.document.open();
+           newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+           newWin.document.close();
+           setTimeout(function() { newWin.close();},10);
+        }
+</script>
+</html>
+s
